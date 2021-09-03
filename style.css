@@ -1,0 +1,12 @@
+.ab{
+	font-size: 30px;
+	color: rebeccapurple;
+	font-weight: bold;
+	font-family: gabriola;
+	text-align: justify;
+	text-shadow: 1px 1px 1px maroon;
+	text-indent: 100px;
+	line-height: 100px;
+	letter-spacing: 10px;
+	word-spacing: 100px;
+}
