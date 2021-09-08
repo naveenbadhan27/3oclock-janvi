@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.ab{
+			height: 100px;
+			width: 100px;
+			background: indianred;
+			transition: 1s;
+		}
+		.ab:hover {
+			background: rebeccapurple;
+		}
+
+		.ac{
+			height: 300px;
+			width: 300px;
+			background: rebeccapurple;
+		}
+		.ad{
+			height: 100px;
+			width: 100px;
+			background: lightcyan;
+			display: none;
+		}
+		.ac:hover .ad{
+			display: block;
+			/*background: darkcyan;*/
+		}
+		.list li{
+			display: inline;
+			padding: 10px 15px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="ab">
+	</div>
+
+	<div class="ac">
+		<div class="ad"></div>
+	</div>
+
+
+	<ul class="list">
+		<li>Home</li>
+		<li>About</li>
+		<li>Contact</li>
+		<li>Gallery</li>
+	</ul>
+
+
+
+
+</body>
+</html>
