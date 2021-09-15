@@ -17,8 +17,16 @@ body,html{
 	font-family: jokerman;
 	font-size: 35px;
 	position: absolute;
-	left: 50px;
-	top: 8px;
+	left: 80px;
+	top: 5px;
+}
+.logo-img{
+	width: 50px;
+	margin-top: 10px;
+	position: absolute;
+	left: 20px;
+	background: whitesmoke;
+	border-radius: 50%;
 }
 .list1{
 	position: absolute;
@@ -117,4 +125,47 @@ body,html{
 	color: whitesmoke;
 	text-align: justify;
 }
-
+.offers{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: linear-gradient(rgb(1,1,1,.7),rgb(12,1,1,.7)),url('bg.jpg');
+	background-size: cover;
+}
+.of1{
+	margin-left: 10%;
+}
+.of2{
+	margin-left: 20%;
+}
+.of1,.of2{
+	width: 30%;
+}
+.of3{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 25px;
+}
+.menu{
+	background: linear-gradient(rgb(1,1,1,.7),rgb(12,1,1,.7)),url('bg2.jpg');
+}
+.menu-item{
+	width: 49%;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	display: inline-flex;
+}
+.menu-item .vicon{
+	height: 30px;
+	float: right;
+}
+.menu-item .picon{
+	height: 70px;
+	float: left;
+}
+.menu-item .box{
+	margin-left: 55px;
+	margin-top: -20px;
+}
